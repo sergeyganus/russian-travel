@@ -1,0 +1,32 @@
+.gallery__list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-auto-rows: auto;
+  gap: 16px;
+  list-style-type: none;
+}
+
+/* Стили для экранов <= 1024px  */
+@media screen and (max-width: 1024px) {
+  .gallery__list {
+    gap: 14px;
+  }
+}
+
+/* Стили для экранов <= 768px  */
+@media screen and (max-width: 768px) {
+  .gallery__list {
+    gap: 16px;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .gallery__list {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 216px;
+    gap: 12px;
+  }
+}

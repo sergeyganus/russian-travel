@@ -12,11 +12,3 @@
     line-height: 24px;
   }
 }
-
-/* Стили для экранов <= 320px  */
-@media screen and (max-width: 320px) {
-  .footer__link {
-    font-size: 24px;
-    line-height: 24px;
-  }
-}

@@ -11,7 +11,6 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px 1fr;
-    grid-template-rows: auto;
     gap: 48px 32px;
   }
 }
@@ -20,20 +19,12 @@
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 340px 1fr;
-    grid-template-rows: auto;
     gap: 48px 28px;
   }
 }
 
 /* Стили для промежуточных значений экранов <= 680px  */
 @media screen and (max-width: 680px) {
-  .place {
-    display: block;
-  }
-}
-
-/* Стили для экранов <= 320px  */
-@media screen and (max-width: 320px) {
   .place {
     display: block;
   }

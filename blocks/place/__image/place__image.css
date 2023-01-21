@@ -32,7 +32,6 @@
 /* Стили для экранов <= 320px  */
 @media screen and (max-width: 320px) {
   .place__image {
-    margin: 0 0 32px;
     max-width: 320px;
     max-height: 320px;
   }

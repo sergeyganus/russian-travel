@@ -26,7 +26,6 @@
 @media screen and (max-width: 680px) {
   .footer {
     margin: 0 auto;
-    padding: 0 24px 24px;
     flex-direction: column;
     max-width: 680px;
   }
@@ -35,9 +34,7 @@
 /* Стили для экранов <= 320px  */
 @media screen and (max-width: 320px) {
   .footer {
-    margin: 0 auto;
     padding: 0 16px 24px;
-    flex-direction: column;
     max-width: 320px;
   }
 }

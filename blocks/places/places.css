@@ -2,11 +2,7 @@
   box-sizing: border-box;
   margin: 0 auto;
   padding: 92px 148px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
   max-width: 1280px;
-  list-style-type: none;
 }
 
 /* Стили для экранов <= 1024px  */
@@ -22,16 +18,13 @@
   .places {
     padding: 88px 24px 0;
     max-width: 768px;
-    gap: 73px;
   }
 }
 
 /* Стили для промежуточных значений экранов <= 680px  */
 @media screen and (max-width: 680px) {
   .places {
-    padding: 88px 24px 0;
     max-width: 100%;
-    gap: 73px;
   }
 }
 
@@ -39,7 +32,5 @@
 @media screen and (max-width: 320px) {
   .places {
     padding: 64px 0 0;
-    max-width: 100%;
-    gap: 50px;
   }
 }

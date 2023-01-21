@@ -17,7 +17,6 @@
 
 /* Стили логотипа страницы - Logo */
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/logo_place_header.css);
 
 /* Стили секция, привлекающей интерес к сайту - Lead */
 @import url(../blocks/lead/lead.css);
@@ -36,11 +35,13 @@
 
 /* Стили галереи красивых мест в России - Gallery */
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__list/gallery__list.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 
 /* Стили секции с местами, которые стоит посетить - Places */
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
@@ -51,10 +52,9 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 /* Стили секции с обложкой интригующего путешествия - Cover */
-@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
 
 /* Стили подвала сайта - Footer */
 @import url(../blocks/footer/footer.css);

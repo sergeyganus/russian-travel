@@ -17,7 +17,6 @@
 /* Стили для промежуточных значений экранов <= 680px  */
 @media screen and (max-width: 680px) {
   .lead__subtitle {
-    margin: 0 0 64px;
     max-width: 540px;
     font-size: 20px;
     line-height: 24px;
