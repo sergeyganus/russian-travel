@@ -1,0 +1,43 @@
+.footer {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 48px 24px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+
+/* Стили для экранов <= 1024px  */
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 1024px;
+  }
+}
+
+/* Стили для экранов <= 768px  */
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0 24px 24px;
+    max-width: 768px;
+  }
+}
+
+/* Стили для промежуточных значений экранов <= 680px  */
+@media screen and (max-width: 680px) {
+  .footer {
+    margin: 0 auto;
+    padding: 0 24px 24px;
+    flex-direction: column;
+    max-width: 680px;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: 0 auto;
+    padding: 0 16px 24px;
+    flex-direction: column;
+    max-width: 320px;
+  }
+}

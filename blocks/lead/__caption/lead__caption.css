@@ -1,0 +1,22 @@
+.lead__caption {
+  margin: 0;
+  align-self: flex-start;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+/* Стили для экранов <= 768px  */
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
+}

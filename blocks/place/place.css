@@ -1,0 +1,40 @@
+.place {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: auto;
+  gap: 48px 40px;
+}
+
+/* Стили для экранов <= 1024px  */
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    grid-template-rows: auto;
+    gap: 48px 32px;
+  }
+}
+
+/* Стили для экранов <= 768px  */
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: auto;
+    gap: 48px 28px;
+  }
+}
+
+/* Стили для промежуточных значений экранов <= 680px  */
+@media screen and (max-width: 680px) {
+  .place {
+    display: block;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .place {
+    display: block;
+  }
+}

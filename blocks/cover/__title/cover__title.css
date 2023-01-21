@@ -1,0 +1,27 @@
+.cover__title {
+  margin: 0 0 32px;
+  max-width: 560px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  z-index: 3;
+}
+
+/* Стили для промежуточных значений экранов <= 680px  */
+@media screen and (max-width: 680px) {
+  .cover__title {
+    font-size: 55px;
+    line-height: 60px;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .cover__title {
+    margin: 0 0 16px;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

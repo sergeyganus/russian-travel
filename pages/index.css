@@ -1,0 +1,63 @@
+/* Подключение Normalize.css */
+@import url(../vendor/styles/normalize.css);
+
+/* Подключение шрифтов */
+@import url(../vendor/fonts/fonts.css);
+
+/* Подключение основных блоков, элементов и модификаторов */
+
+/* Стили основного контейнера - Page */
+@import url(../blocks/page/page.css);
+
+/* Стили шапки страницы - Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+
+/* Стили логотипа страницы - Logo */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+
+/* Стили секция, привлекающей интерес к сайту - Lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/* Стили вступительной секции сайта - Intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__item/advantages__item.css);
+@import url(../blocks/advantages/__counter/advantages__counter.css);
+
+/* Стили галереи красивых мест в России - Gallery */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+
+/* Стили секции с местами, которые стоит посетить - Places */
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
+/* Стили секции с обложкой интригующего путешествия - Cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+
+/* Стили подвала сайта - Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

@@ -1,0 +1,12 @@
+.lead__image {
+  margin: 0 0 8px;
+  display: block;
+  max-width: 100%;
+}
+
+/* Стили для экранов <= 768px  */
+@media screen and (max-width: 768px) {
+  .lead__image {
+    max-width: 100%;
+  }
+}

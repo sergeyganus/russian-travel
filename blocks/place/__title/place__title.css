@@ -1,0 +1,32 @@
+.place__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+/* Стили для экранов <= 768px  */
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+/* Стили для промежуточных значений экранов <= 680px  */
+@media screen and (max-width: 680px) {
+  .place__title {
+    margin: 0 auto 32px;
+    max-width: 632px;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .place__title {
+    margin: 0 auto 32px;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

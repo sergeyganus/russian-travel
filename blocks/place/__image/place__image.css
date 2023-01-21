@@ -1,0 +1,39 @@
+.place__image {
+  max-width: 460px;
+  max-height: 460px;
+  object-fit: cover;
+}
+
+/* Стили для экранов <= 1024px  */
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+    max-height: 440px;
+  }
+}
+
+/* Стили для экранов <= 768px  */
+@media screen and (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+
+/* Стили для промежуточных значений экранов <= 680px  */
+@media screen and (max-width: 680px) {
+  .place__image {
+    margin: 0 0 32px;
+    max-width: 75%;
+    max-height: 75%;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .place__image {
+    margin: 0 0 32px;
+    max-width: 320px;
+    max-height: 320px;
+  }
+}

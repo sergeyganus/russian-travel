@@ -1,0 +1,21 @@
+.footer__copyright {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* Стили для промежуточных значений экранов <= 680px  */
+@media screen and (max-width: 680px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

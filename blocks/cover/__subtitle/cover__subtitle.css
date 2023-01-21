@@ -1,0 +1,17 @@
+.cover__subtitle {
+  margin: 0;
+  max-width: 360px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  z-index: 2;
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

@@ -1,0 +1,19 @@
+.place__website {
+  align-self: end;
+}
+
+/* Стили для промежуточных значений экранов <= 680px  */
+@media screen and (max-width: 680px) {
+  .place__website {
+    margin: 0 auto 32px;
+    max-width: 632px;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin: 0 auto 32px;
+    max-width: 288px;
+  }
+}

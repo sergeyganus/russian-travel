@@ -1,0 +1,22 @@
+.footer__link {
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Стили для промежуточных значений экранов <= 680px  */
+@media screen and (max-width: 680px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

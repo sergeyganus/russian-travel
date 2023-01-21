@@ -1,0 +1,22 @@
+.footer__links {
+  display: flex;
+  gap: 18px;
+}
+
+/* Стили для промежуточных значений экранов <= 680px  */
+@media screen and (max-width: 680px) {
+  .footer__links {
+    margin: 0 0 48px;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .footer__links {
+    margin: 0 0 48px;
+    flex-direction: column;
+    gap: 32px;
+  }
+}

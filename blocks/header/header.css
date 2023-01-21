@@ -1,0 +1,30 @@
+.header {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 28px 48px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+
+/* Стили для экранов <= 1024px  */
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 1024px;
+  }
+}
+
+/* Стили для экранов <= 768px  */
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px 24px 0;
+    max-width: 768px;
+  }
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 288px;
+  }
+}

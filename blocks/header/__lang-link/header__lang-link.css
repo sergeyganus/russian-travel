@@ -1,0 +1,14 @@
+.header__lang-link {
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Стили для экранов <= 320px  */
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
