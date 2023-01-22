@@ -5,6 +5,10 @@
   color: #fff;
 }
 
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
 /* Стили для экранов <= 320px  */
 @media screen and (max-width: 320px) {
   .header__lang-link {

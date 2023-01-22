@@ -5,6 +5,10 @@
   color: #fff;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+}
+
 /* Стили для промежуточных значений экранов <= 680px  */
 @media screen and (max-width: 680px) {
   .footer__link {
