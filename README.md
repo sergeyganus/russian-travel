@@ -5,7 +5,7 @@
 
 Технологии: HTML5, CSS3, БЭМ
 
-## Ссылка на сайт
+### Ссылка на сайт
 
 https://sergeyganus.github.io/russian-travel/
 
